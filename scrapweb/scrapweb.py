@@ -26,7 +26,7 @@ titles = newReleases.xpath('.//div[@class="tab_item_name"]/text()')
 
 
 #precios
-prices = newReleases.xpath('//div[@class="discount_final_price"]/text()')
+prices = newReleases.xpath('.//div[@class="discount_final_price"]/text()')
 #print(prices)
 
 
